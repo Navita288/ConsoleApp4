@@ -10,6 +10,15 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+            new GenerateList().Run(57);
+        }
+
+        class GenerateList
+            {
+            const int LEN = 100;
+        ArrayList List Q;
+            public void Run(int AddUpToNumber)
+        
         }
     }
 }
